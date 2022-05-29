@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    color: black;
+    font-family: 'ubuntu', sans-serif;
+
+    
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-section .text-1{
+    font-size: 30px;
+    color: #2a2550;
+}
+
+.home .home-section .text-2{
+    font-size: 15px;
+    color: #808080;
+}
+.home .home-section .text-3{
+    font-size: 75px;
+    font-weight: 600;
+    color: #2a2550;
+}
+
+.home .home-section .text-4{
+    color: #808080;
+    font-size: 40px;
+}
+
+.home .home-section .text-4 span{
+    color: rgb(255, 164, 45);
+    font-weight: 500;
+}

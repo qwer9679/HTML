@@ -1,0 +1,46 @@
+.contact{
+    color: white;
+    background-color: #251d3a;
+    padding-bottom: 50px;
+    padding: 100px 0;
+    transition: all 0.3s ease;
+}
+
+.contact .title{
+    padding-top: 40px;
+    margin-bottom: 120px;
+    color: white;
+}
+
+.contact .title::before{
+    background-color: white;
+}
+
+.contact .title::after{
+    content: "How to Contact Me";
+    background-color: #251d3a;
+}
+.contact .contact-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #e04d01;
+}
+.contact .contact-content .column{
+    width: 45%;
+}
+
+.contact .contact-text1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff7700;
+}
+
+.contact .contact-text2{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.contact .contact-content .fields{
+    display: flex;
+}

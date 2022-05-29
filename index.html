@@ -1,14 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <a href="https://cyber.chungwoon.ac.kr/ilos/main/main_form.acl">청운대 e-Class systm</a>
-    <a href="http://www.chungwoon.ac.kr">청운대학교</a>
+    <!--font awesome?-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuieGwBcD4Ng9SiP4dIry0EXTlnuz47vAwmeGWVChigm" crossorigin="anonymous">
     
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>TITLE</title>
+</head>
+
+<body>
+
+    <!--nav-->
+    <nav class="navbar">
+    <div class="max-width">
+        <div class = "logo"><a href="">Self-Introduction</a></div>
+        <!--menubar-->
+        <ul class="menubar">
+            <li><a href="#home" class="menu-btn" id="homeID">HOME</a></li>
+            <li><a href="#about" class="menu-btn" id="aboutID">About</a></li>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+            <li><a href="#contact" class="menu-btn"">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    </nav>
+
+    <!--Home-->
+    <section class="home" id="home">
+        
+        <div class="max-width" >
+            <div class="home-section">
+                <div class = "text-1">Hello!</div>
+                <div class = "text-2">My Name is</div>
+                <div class= " text-3">LJH</div>
+                <div class="text-4">My Skills <span class="typing1">C, HTML and CSS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About</h2>
+            <div class="about-content">
+                <div class="left column">
+                    <img src="./img/profile-img.jpg" alt="profile">
+                </div>
+                <div class="right column">
+                    <div class="about-text">이름</div>
+                    <div class="about-skills"> 이준호</div>
+                    <div class="about-p">현재 <span class="str-text">청운대학교</span>에서 재학중입니다.</p>
+                    <div class="about-p">교육과정은 <span class="str-text">2학년</span>을 진행중입니다.</p>
+                    <div class="about-p"><span class="str-text">졸업예정연도</span>는 <span class="str-text">2025년</span>입니다.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--skills-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="left column">
+                    <div class="skills-text">
+                        <div class="sub-title"> What I learmed</div>
+                        <p>현재 대학교에서 배운 언어는 <span class="str-text">C, HTML, CSS</span>입니다.</p>
+                        <p><span class="str-text">C</span>는 <span class="str-text">기초, 응용, 자료구조</span>에 대하여 배웠습니다. </p>
+                        <p>최근에 배운 내용은 <span class="str-text">스택, 큐, 트리</span>에 대햐여 배웠습니다.</p>
+                        <p><span class="str-text">HTML</span>은 <span class="str-text">w3schools.com</span>을 통하여 배웠으며,</p>
+                        <p>현재 여러분이 접속해 있는 페이지는 <span class="str-text">이를 응용하여 제작한 페이지</span>입니다.</p>
+                    </div>
+                </div>
+                <div class="right column">
+                    <div class="bars">
+                        <div class="bars-content">
+                            <span>C</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line c"></div>
+
+                        <div class="bars-content">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+
+                        <div class="bars-content">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contect-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-title">My information</div>
+            <br>
+            <div class="contact-content">
+                <div class="contact-text1">Phone</div>
+                <div class="contact-text2">010-2313-9679</div>
+            </div>
+            <br>
+            <div class="contact-content">
+                <div class="contact-text1">E-Mail</div>
+                <div class="contact-text2">91dlwnsgh@naver.com</div>
+            </div>
+            <br>
+            <div class="contact-content">
+                <div class="contact-text1">Address</div>
+                <div class="contact-text2">인천광역시, 남동구 만수동</div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
+
+<!--참고사이트1 : https://determination.tistory.com/entry/HTMLCSSJavaScript%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4-%EA%B0%9C%EC%9D%B8-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B01
+참고사이트2 : https://determination.tistory.com/entry/HTMLCSSJavaScript%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4-%EA%B0%9C%EC%9D%B8-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B02?category=1048600
+
+색상
+배경색(어두운 배경) : #251d3a
+색상 1(밝은 배경)   : #2a2550
+색상 2(호버)        : #e04d01
+색상 3(강조)        : #ff7700
